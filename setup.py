@@ -25,4 +25,12 @@ setup(
     install_requires = [
         "blessings ~= 1.7",
     ],
+
+    extras_require = {
+        "dev": [
+            "pytest >= 3.7",
+            "check-manifest",
+            "twine",
+        ],
+    },
 )
