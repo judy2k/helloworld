@@ -21,4 +21,8 @@ setup(
     url="https://github.com/judy2k/helloworld",
     author="Mark Smith",
     author_email="mark.smith@vonage.com",
+
+    install_requires = [
+        "blessings ~= 1.7",
+    ],
 )
